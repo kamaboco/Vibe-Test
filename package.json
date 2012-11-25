@@ -1,0 +1,12 @@
+{
+    "name": "bookmarks",
+    "version": "0.0.1",
+    "description": "An example project skeleton",
+    "homepage": "http://rdmdx.info/bookmarks",
+    "copyright": "Copyright © 212, rdmdx,info",
+    "authors": [
+        "Kamaboco"
+    ],
+    "dependencies": {
+    }
+}
