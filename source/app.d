@@ -1,6 +1,12 @@
 import vibe.d;
 
+import appcore.config, appcore.server;
+
+
 static this()
-{ 
-    logInfo("Edit source/app.d to start your project.");
+{
+    auto conf = new WebappConfig;
+    conf.load();
+    auto server = new WebappServer;
+    server.listen(conf);
 }
